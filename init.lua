@@ -1059,3 +1059,6 @@ require('lazy').setup({
 
 -- The line beneath this is called `modeline`. See `:help modeline`
 -- vim: ts=2 sts=2 sw=2 et
+
+vim.keymap.set('n', 'ft', '<cmd>Floaterminal<CR>', {})
+vim.keymap.set('n', 'fg', '<cmd>Floatingit<CR>', {})
